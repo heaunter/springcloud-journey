@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springcloud-journey</artifactId>
+        <groupId>top.vota</groupId>
+        <version>1.0</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>top.vota</groupId>
-    <artifactId>springcloud-journey</artifactId>
-    <version>1.0</version>
-    <modules>
-        <module>springcloud-eureka</module>
-    </modules>
-    <packaging>pom</packaging>
-    <name>springcloud-journey</name>
+    <artifactId>eureka</artifactId>
 
-    
+
 </project>
