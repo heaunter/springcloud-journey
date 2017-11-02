@@ -1,4 +1,4 @@
-package top.vota.springcloud.consumer.springcloud.register;
+package top.vota.springcloud.springcloud.register;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
