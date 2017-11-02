@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @GetMapping(value = "/info/{id}")
+    @GetMapping(value = "/userinfo")
     public String getUserInfo(@RequestParam(value = "name") String username) {
         return "I am " + username;
     }
