@@ -21,6 +21,7 @@
     <modules>
         <module>springcloud-register-center</module>
         <module>springcloud-service-provider</module>
+        <module>springcloud-service-consumer</module>
     </modules>
 
     <dependencyManagement>
