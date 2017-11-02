@@ -1,5 +1,7 @@
 package top.provider.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -7,5 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class UserController {
-    
+
+    @GetMapping(value = "userinfo")
+    public String getUserInfo(@RequestParam(value = "name") String username) {
+        return "I am " + username;
+    }
+
 }
